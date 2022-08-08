@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vw;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.nav_a a{
+    margin-right: 50px;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav_a a:hover{
+    color: aqua;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.film{
+    position: relative;
+    width: 15%;
+    margin: 1em 1rem;
+}
+
+.film img{
+    width: 100%;
+}
+
+.film .flag{
+    width: 4vw;
+    height: 2vw;
+    font-size: 1vw;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(21, 80, 80);
+    color: antiquewhite;
+}
+
+.film .nazv{
+    color: antiquewhite;
+    font-size: 1.7vw;
+}
+
+.text{
+    width: 10vw;
+    background-color: aliceblue;
+}
+
+.footer{
+    width: 100%;
+    height: 20vw;
+    background: rgba(12, 30, 51, 0.8);
+}

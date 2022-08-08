@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vw;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.nav_a a{
+    margin-right: 50px;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav_a a:hover{
+    color: aqua;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.box2{
+    margin: 5% auto;
+    width: 95%;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.nav_calend{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_calend a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: serif;
+    transition: 0.4s;
+}
+
+.nav_calend a:hover{
+    text-decoration: underline;
+    color: #d4f5ff;
+}
+
+.nav_calend .red{
+    color: rgb(254, 226, 190);
+}
+
+.cnop_a{
+    margin-top: 5%;
+    width: 50vw;
+    text-align: center;
+}
+
+.cnop_a h4{
+    color: #FFFFFF;
+}
+
+.tabs_block{
+    display: none;
+}
+  
+.tabs_block:target{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 20vw;
+    background: rgba(12, 30, 51, 0.8);
+}

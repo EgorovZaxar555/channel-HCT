@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vw;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 8vw;
+    height: 8vw;
+}
+
+.nav_a a {
+    margin-right: 50px;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav_a a:hover {
+    color: aqua;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.box2 {
+    border-radius: 20px;
+    margin: 5% auto;
+    width: 95%;
+    background: rgba(12, 30, 51, 0.8);
+}
+
+.poisc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    height: 5vw;
+}
+
+.poisc h5 {
+    font-family: 'Inter';
+    font-size: 2vw;
+    color: #FFFFFF;
+}
+
+.poisc input[type="text"] {
+    width: 70%;
+    height: 3vw;
+    margin-left: 15%;
+    border: none;
+    outline: none;
+}
+
+.pole_poicc {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.pole_poicc img {
+    width: 6vw;
+}
+
+.block {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.block img {
+    width: 30vw;
+}
+
+.block_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.data p {
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.data h3 {
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.block_text img {
+    width: 6vw;
+    padding-left: 20px;
+}
+
+.cnop_a {
+    margin-top: 5%;
+    width: 50vw;
+    text-align: center;
+}
+
+.cnop_a h4 {
+    color: #FFFFFF;
+    font-size: 2vw;
+}
+
+.cnop_a img {
+    width: 4vw;
+}
+
+.footer {
+    width: 100%;
+    height: 20vw;
+    background: rgba(12, 30, 51, 0.8);
+}
